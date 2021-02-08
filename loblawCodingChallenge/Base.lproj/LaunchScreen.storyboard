@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coding Challenge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPl-8z-Lrg">
+                                <rect key="frame" x="30" y="403" width="330" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="EvN-Gd-yrl">
+                                <rect key="frame" x="39" y="216.66666666666663" width="312" height="166.33333333333337"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EvN-Gd-yrl" secondAttribute="height" multiplier="15:8" id="Xx4-nV-Nl4"/>
+                                </constraints>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="7XI-Cg-TJS">
+                                <rect key="frame" x="185" y="471" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EvN-Gd-yrl" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.8" id="2sO-T1-BRV"/>
+                            <constraint firstItem="iPl-8z-Lrg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HQE-8N-vN3"/>
+                            <constraint firstItem="iPl-8z-Lrg" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="T6Z-3g-Ywf"/>
+                            <constraint firstItem="7XI-Cg-TJS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="d5o-r9-axS"/>
+                            <constraint firstItem="iPl-8z-Lrg" firstAttribute="top" secondItem="EvN-Gd-yrl" secondAttribute="bottom" constant="20" id="j06-bm-n7y"/>
+                            <constraint firstItem="7XI-Cg-TJS" firstAttribute="top" secondItem="iPl-8z-Lrg" secondAttribute="bottom" constant="20" id="kED-7g-sfh"/>
+                            <constraint firstItem="EvN-Gd-yrl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="w6J-yV-5py"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="640" height="640"/>
+    </resources>
+</document>

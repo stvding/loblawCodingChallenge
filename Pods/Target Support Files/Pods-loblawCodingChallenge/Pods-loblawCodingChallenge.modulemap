@@ -1,0 +1,6 @@
+framework module Pods_loblawCodingChallenge {
+  umbrella header "Pods-loblawCodingChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
